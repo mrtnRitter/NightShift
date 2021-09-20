@@ -1,0 +1,42 @@
+[Server]
+	MAC	00-00-00-00-00-00, AA-AA-AA-AA-AA-AA, BB-BB-BB-BB-BB-BB, CC-CC-CC-CC-CC-CC, DD-DD-DD-DD-DD-DD
+	IP	192.168.1.1, 192.168.1.2, 192.168.1.3, 192.168.1.4
+	User	ServerUser
+	Timesrc	True
+
+[Backup1]
+	MAC	EE-EE-EE-EE-EE-EE
+	IP	192.168.1.100
+	User	Backup1User
+	Server	192.168.1.4
+
+[Backup2]
+	MAC	FF-FF-FF-FF-FF-FF
+	IP	192.168.1.200
+	User	Backup2User
+	Server	192.168.1.1
+	Timesrc	True
+
+[Work1]
+	MAC	A0-A0-A0-A0-A0-A0
+	IP	192.168.1.10
+	User	WS1User
+	Server	192.168.1.1
+
+[Work2]
+	MAC	B0-B0-B0-B0-B0-B0
+	IP	192.168.1.20
+	User	WS2User
+	Server	192.168.1.2
+
+[Work3]
+	MAC	C0-C0-C0-C0-C0-C0
+	IP	192.168.1.30
+	User	WS3User
+	Server	192.168.1.3
+
+[Work4]
+	MAC	D0-D0-D0-D0-D0-D0
+	IP	192.168.1.40
+	User	WS4User
+	Server	192.168.1.4
