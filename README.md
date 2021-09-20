@@ -2,6 +2,8 @@
 A specialized backup scheduler for a small environment.  
 Written in Python 3.x, tested and still running in Pyhton 3.7.2
 
+<img src="https://github.com/mrtnRitter/NightShift/blob/main/Screens/SampleOutputShort.jpg">
+
 ### General
 NightShift checks connected computers regularly and initiate a backup, if no computers are reachable any more. It will also initiate the backup at a given timespan or through the -manualmode flag.
 It handles remote backup computers by itself and takes care about a correctly synced time on the remote backup computers. NightShift will hibernate the host computer after the backup, if it is not needed anymore. 
