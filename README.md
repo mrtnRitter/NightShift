@@ -56,4 +56,4 @@ While initiating the backup:
 Due to the flexibility of the modules, which often have several options, the current implementation can easily be adjusted to a new situation, like network layout, backups, computers and so on. E.g. an earlier implementation could perform a backup remotely on computers, with the host involved only as initiation, but not as central node. 
 
 ---
-*NightShift* is licensed under the [MIT License](https://github.com/hoffstadt/DearPyGui/blob/master/LICENSE).
+*NightShift* is licensed under the [MIT License](https://github.com/mrtnRitter/NightShift/blob/main/LICENSE).
